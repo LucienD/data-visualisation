@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="51px" height="66px" viewBox="0 0 51 66" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.1.1 (8761) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Artboard-1" sketch:type="MSArtboardGroup" transform="translate(-93.000000, -89.000000)" fill="#000000">
+            <path d="M95.9998806,89 C94.3430923,89 93,90.3482827 93,92.007385 L93,151.992615 C93,153.653548 94.3379117,155 95.9998806,155 L141.000119,155 C142.656908,155 144,153.651717 144,151.992615 L144,92.007385 C144,90.3464521 142.662088,89 141.000119,89 L95.9998806,89 Z M118.5,153 C119.328427,153 120,152.328427 120,151.5 C120,150.671573 119.328427,150 118.5,150 C117.671573,150 117,150.671573 117,151.5 C117,152.328427 117.671573,153 118.5,153 Z M97,93 L97,150 L140,150 L140,93 L97,93 Z" id="Rectangle-1" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

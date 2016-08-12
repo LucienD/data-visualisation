@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="102px" height="85px" viewBox="0 0 102 85" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.1.1 (8761) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Artboard-1" sketch:type="MSArtboardGroup" transform="translate(-309.000000, -69.000000)" fill="#000000">
+            <path d="M373,147.6 L373,142 L408.002574,142 C409.658006,142 411,140.654834 411,139.002218 L411,71.9977818 C411,70.3421527 409.654196,69 408.002574,69 L311.997426,69 C310.341994,69 309,70.3451661 309,71.9977818 L309,139.002218 C309,140.657847 310.345804,142 311.997426,142 L347,142 L347,142 L347,147.333333 L342.597239,153.203682 C342.267393,153.643476 342.442529,154 343.009736,154 L375.990264,154 C376.547926,154 376.75884,153.614143 376.464912,153.14386 L373,147.6 Z M360,72 C360.552285,72 361,71.5522847 361,71 C361,70.4477153 360.552285,70 360,70 C359.447715,70 359,70.4477153 359,71 C359,71.5522847 359.447715,72 360,72 Z M313.847439,73.5 L313.847439,138 L407,138 L407,73.5 L313.847439,73.5 Z" id="Rectangle-1" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

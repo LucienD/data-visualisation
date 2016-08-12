@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+        <title>Vie privée et internet : l'enjeu des données</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta name="description" content="CSS-only Responsive Layout with Smooth Transitions" />
+        <meta name="keywords" content="css3, transitions, animations, css-only, navigation, smooth scrolling, full width, full height, window width, window height" />
+        <meta name="author" content="Codrops" />
+        <link rel="shortcut icon" href="../favicon.ico"> 
+		<link href='http://fonts.googleapis.com/css?family=Josefin+Slab:400,700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="css/demo.css" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+			 <link rel="stylesheet"  href="css/tooltipster.css" />
+		
+		
+		<script src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/d3.v3.min.js"></script>
+		<script type="text/javascript" src="js/tabletop.js"></script>
+		<script type="text/javascript" src="js/modernizr.custom.79639.js"></script> 
+		 <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.0.min.js"></script>
+		<script type="text/javascript" src="js/jquery.tooltipster.min.js">
+			<script src="js/Chart.js"></script>
+			
+					<script>
+        $(document).ready(function() {
+            $('.tooltip').tooltipster({
+    theme: 'tooltipster-punk'
+});
+        });
+    </script>
+	
+		<!--[if lte IE 8]>
+			 <link rel="stylesheet" type="text/css" href="css/simple.css" />
+		<![endif]-->
+    </head>
+    <body>
+		
+			
+			
+			<div class="st-container">
+			
+				<input type="radio" name="radio-set" checked="checked" id="intro"/>
+				<a href="#st-panel-1">Introduction</a>
+				<input type="radio" name="radio-set" id="st-control-2"/>
+				<a href="#st-panel-2">Usage général d'internet</a>
+				<input type="radio" name="radio-set" id="st-control-3"/>
+				<a href="#st-panel-3">Big Data</a>
+				<input type="radio" name="radio-set" id="st-control-4"/>
+				<a href="#st-panel-4">Les risques invisibles</a>
+				<input type="radio" name="radio-set" id="st-control-5"/>
+				<a href="#st-panel-5">Participez !</a>
+				
+				<div class="st-scroll">
+				
+		
+					
+					<section class="st-panel" id="intro">
+						<div class="st-deco" data-icon="i"></div>
+						<h2>Vie privée et internet</h2>
+					
+					<p>L’explosion des volumes de données ne cesse de progresser dans tous les domaines possibles. Ce phénomène de « Big Data », consiste à utiliser des sources multiples (sites, téléphones, serveurs etc.) afin de générer des données permettant par la suite, et ce dans un but précis, de trouver de nouvelles idées, d’anticiper des marchés, d’étudier les comportements des individus etc. </br>
+Dans le cadre de ce projet, nous nous sommes intéressés essentiellement aux données personnelles des individus. En effet, cette notion englobe une quantité non-négligeable d’informations plus ou moins nominatives, et le plus souvent, émises sur la toile. A notre échelle, il est clair que nous ne sommes pas conscient du flux d’informations généralisé sur le web et qui dépasse largement « la vie privée ». </br>
+Nous avons fait le choix de nous concentrer sur le comportement des individus sur le web et ce, grâce à un questionnaire intitulé « Les données privées sur le web », dans le but de connaître leur opinion concernant cette « récolte des données » (à titre anonyme). Car effectivement, bon nombre de questions se posent : </br></br> L'exploitation des données personnelles sur internet, est-elle une étape nécessaire à l'amélioration de notre propre quotidien ? </br> Est-ce utile pour les géants du web (Google, Facebook, Apple...) de récupérer la totalité des données diffusées par les internautes ? </br> A quel point savons-nous utiliser l’outil du web ?</p>
+						
+					</section>
+					
+					<section class="st-panel st-color" id="usages">
+						<div class="st-deco" data-icon="5"></div>
+						<!---<img src="images/background_croix.svg" /> !-->
+						<h2>Usage général d'internet</h2>
+					
+<div id="bouton_usages" class="show1"></div>
+<span id="texte_usages">De nos jours, le web fait partie de l’un de nos supports réguliers pour tous types de démarches. L’utilisateur ne cesse de s’y impliquer, et y trouve une certaine commodité, un gain de temps, sans oublier le fait qu’il ne se déplace plus. Le web incite donc à créer des « nouveaux liens » avec le virtuel, conséquence directe des réseaux sociaux très actifs depuis leurs ouvertures. 
+Aujourd’hui, les réseaux sociaux font parties intégrantes des outils de l’entreprise. Certes, qui dit réseaux sociaux, dit stockage d’informations confidentielles. Reprenons l’exemple de Facebook : nous pouvons voir qui est connecté, qui aime quoi, qui a posté telle photo ou telle musique, dit autrement nous pouvons voir « qui fait quoi ».
+Les réseaux sociaux sont des plateformes débordantes de données individuelles et collectives. Mais qu’en est-il de la sécurité de celles-ci ? 
+Les plateformes du web que sont les réseaux sociaux nous donnent la possibilité de poster, consulter, échanger, commenter des données de toutes sortes. A titre d’exemple, Facebook, classé n°1 des réseaux sociaux, récupère 500 téraoctets de données par jour, soit l’équivalent de 300 millions de livres ! </span>
+
+
+
+<script type="text/javascript" src="js/maitrise.js"></script>
+<script src="js/piepart1.js"></script>
+<script type="text/javascript" src="js/colum.js"></script>
+<script src="js/highcharts.js"></script>
+<script src="js/highcharts-more.js"></script>
+ <div id="reseaux_sociaux">
+ <h5>Utilisation des réseaux sociaux</h5>
+ <div id="combo" style="width: 100%; height: 100%; margin: 0 auto"></div>
+ </div>
+ 
+ 
+ <div id="supports_usages">
+ <h3>Les supports de navigation</h3></br></br>
+    <div id="phone" class="device">
+        <img src="images/img-data-visualisation/phone.svg" alt="Phone">
+        <div class="device-pourcentage" id="phone-pourcentage">
+          <h6>2,7%</h6>
+        </div>
+        <section>
+          <p>2,7% des utilisateurs Internet naviguent sur la toile depuis leur smartphone.</p>
+        </section>
+      </div>
+
+
+      <div id="tablet" class="device">
+        <img src="images/img-data-visualisation/tablet.svg" alt="Phtabletone">
+        <div class="device-pourcentage" id="tablet-pourcentage">
+          <h6>4,6%</h6>
+        </div>
+        <section>
+          <p>4,6% des utilisateurs Internet naviguent sur la toile depuis leur tablette.</p>
+        </section>
+      </div>
+
+
+      <div id="computer" class="device">
+        <img src="images/img-data-visualisation/computer.svg" alt="computer">
+        <div class="device-pourcentage" id="computer-pourcentage">
+          <h6>92,3%</h6>
+        </div>
+        <section>
+          <p>92,3% des utilisateurs Internet naviguent sur la toile depuis leur ordinateur.</p>
+        </section>
+      </div>
+
+ </div>
+ 
+ 
+    <div id="activites-2">
+    	<h1>Activités sur Internet</h1>
+    		<div id="activites-2bis">
+
+		        <div id="column" style="width: 100%; height: 100%; margin: 0 auto"></div>
+
+      		</div>
+    </div>
+	
+									</section>
+					
+					<section class="st-panel" id="big_data">
+						<div class="st-deco" data-icon="Ü"></div>
+										<h2>Big Data ?</h2>
+
+
+<div id="bouton_big_data" class="show1"></div>
+<span id="texte_big_data">Le Big data représente aujourd’hui un nouveau défi
+pour les organisations. En effet, le
+principe étant de récolter un maximum de données, et ainsi de permettre à l’organisation
+concernée de les manipuler, de les analyser pour en
+extraire les informations pertinentes.
+Il y a là un enjeu compétitif et commercial, dans le but d’anticiper nos désirs sur le web.
+Le Big data regroupe une famille d’outils qui répond à trois problématiques :</br></br>
+- Le Volume de données traitées</br>
+- La Variété des informations récupérées</br>
+- La Vélocité (la fréquence des données crées et pa
+rtagées)</br> </br>
+Mais il est clair quand dans l’ère du Big Data, la
+question de la confidentialité persiste et ces
+utilisateurs du web deviennent de plus en plus méfiants.
+</span>
+
+<div id="compteur"><img src="images/pictos/billet.svg" /><h3>315 milliards de dollars</h3> C'est la valeur de nos données personnelles sur internet en 2013</div>
+
+<div id="picto_data_1"><img src="images/pictos/femme.svg"/></br> Les femmes se montrent beaucoup plus inquiètes que les hommes. </div>
+<div id="picto_data_2"><img src="images/pictos/bonhomme_inquiet.svg"/></br>C'est entre 35 et 49 ans, et après 65 ans que l'on est le plus inquiet.</div>
+<div id="picto_data_3"><img src="images/pictos/bonhomme_travail.svg"/></br> Les cadres supérieurs et les professions intellectuelles sont les moins inquiets de tous.</div>
+
+
+<div id="graphique_inquietude">
+	<div id="box" style="width: 100%; height: 100%; margin: 0 auto"></div>
+</div>
+<!---<img src="images/pictos/cloud.svg" id="def_cloud" alt="Icône cloud" class="tooltip" title="CLOUD : Le cloud computing désigne le fait de stocker ses données sur des serveurs distants plutôt que sur son propre matériel. De plus en plus répandu, il permet un partage aisé de documents ou  de services. 
+
+" /> </br> !-->
+
+<div id="le_saviez_vous_gps"><img src="images/pictos/telephone.svg" /></br></br><h3> Emetteurs permanents </h3>Nos smartphones sont des émetteurs de données géographiques idéaux avec leurs GPS intégrés. </div>
+
+					</section>
+					
+					<section class="st-panel st-color" id="risques">
+						<div class="st-deco" data-icon="j"></div>
+						<h2>Les risques invisibles</h2>
+						<div id="bouton_risques" class="show1"></div>
+<span id="texte_risques"> Cette explosion de données ouvre de nouvelles perspectives pour les entreprises et pour les Etats. Cependant, le Big Data fait aussi apparaitredes « failles » possibles, un certain nombre
+de risques pouvant mettre en danger la vie d’autrui. </br>
+La récupération de données a laissé place à des moyens de détourner celles-ci sans en
+informer l’utilisateur. </br>
+Dans une logique marketing, le tracking a longtemps
+permis aux entreprises d’en apprendre
+d’avantage sur les internautes, et ce grâce aux cookies. Ce processus peut profiter à tout
+le monde : l’entreprise vend plus et le client reçoit des offres intéressantes et bien ciblées,
+sans pour autant mettre en danger l’utilisateur du
+web. </br>
+A contrario, protéger ses données privées est certes indispensable mais tous systèmes de
+sécurité ne peuvent vous assurer une protection absolue. Les virus en sont la preuve : ceux-ci n'hésitent pas à corrompre nos données informatiques, ou à les
+récupérer parfois dans un but lucratif ou simplement protestataire. 
+</span>
+
+<img src="images/pictos/virus.svg" id="def_virus" alt="Icône virus" class="tooltip" title="VIRUS : Un virus est un programme généralement de petite taille et à la base inoffensif, mais si doté de codes malveillants il peut être redoutable et s'introduire dans des fichiers de programme afin de les parasiter et empêcher le bon fonctionnement du matériel. Tout comme les virus biologiques, ils se propagent très vite, par le biais des réseaux ou de périphériques externes. 
+" /> </br>
+<img src="images/pictos/cookie.svg" id="def_cookie" alt="Icône cookie" class="tooltip" title="COOKIE : Le cookie est un fichier texte enregistré sur le disque dur de l'internaute à la demande du site visité par celui-ci. Il stocke des informations sur la navigation du site par l'utilisateur, et permet d'améliorer la prochaine visite en prenant compte de ses préférences. Les cookies sont surtout utilisés à des fins publicitaires, afin de proposer des publicités adaptées aux dernières recherches de l'usager.
+" /> </br>
+<img src="images/pictos/spam.svg" id="def_spam" alt="Icône spam" class="tooltip" title="SPAM : Ce terme désigne une communication indésirable, anonyme, et surtout envoyée en masse par son expéditeur.  Les mails non-voulus sont la forme la plus répandue de ce phénomène, et nous avons vite fait de les envoyer à la corbeille. D'ailleurs, les québecois ne parlent pas de spams mais de « pourriels » (contraction entre poubelle et courriel).
+" /> </br>
+
+	<div id="explicationbeam"><p><h3>Petite expérimentation de tracking…</h3></br>
+	Nous avons utilisé le plug-in Lightbeam, développé par Mozilla Firefox, afin de mieux comprendre le phénomène de tracking (ou comment cerner le profil d'un internaute) lors de notre navigation sur internet. Le résultat est édifiant.</p></div>
+ 	<div id="lightbeam"></div>
+
+
+					</section>
+					
+					<section class="st-panel" id="questions">
+						<div class="st-deco" data-icon=">"></div>
+						<a href="https://docs.google.com/forms/d/1iSpv_krNZLR0leGs1nUv06lnBxiEU_vbgfzqBBTp4iI/viewform"><h2>Participez à notre visualisation ici !</h2></a>
+						<p> En cliquant sur le lien ci-dessus vous pourrez nous faire part de votre avis et ainsi modifier la vision globale obtenue !</p>
+						<link rel="stylesheet" type="text/css" href="css/styleD3.css" /> 
+							<div id="placeholder">
+							    <div id="conteneur1">
+							    	<div id="bulle1">
+							    		<p id="pourcent1"></p>
+							    	</div>
+							    </div>
+
+							    <div id="conteneur2">
+							    	<div id="bulle2">
+							    		<p id="pourcent2"></p>
+							    	</div>
+							    </div>
+
+							    <div id="conteneur3">
+							    	<div id="bulle3">
+							    		<p id="pourcent3"></p>
+							    	</div>
+							    </div>
+
+							    <div id="conteneur4">
+							    	<div id="bulle4">
+							    		<p id="pourcent4"></p>
+							    	</div>
+							    </div>
+
+							    <div id="conteneur5">
+							    	<div id="bulle5">
+							    		<p id="pourcent5"></p>
+							    	</div>
+							    </div>
+
+							    <div id="conteneur6">
+							    	<div id="bulle6">
+							    		<p id="pourcent6"></p>
+							    	</div>
+							    </div>
+
+							    <div id="conteneur7">
+							    	<div id="bulle7">
+							    		<p id="pourcent7"></p>
+							    	</div>
+							    </div>
+
+							    <div id="conteneur8">
+							    	<div id="bulle8">
+							    		<p id="pourcent8"></p>
+							    	</div>
+							    </div>
+
+							    <div id="conteneur9">
+							      	<div id="bulle9">
+							      		<p id="pourcent9"></p>
+							      	</div>
+							    </div>
+
+							</div>				
+
+							<!-- emplacement du svg -->
+
+							<div id="legende">
+								<div id="twitter"><p>Twitter</p></div>
+								<div id="facebook"><p>Facebook</p></div>
+								<div id="snapchat"><p>Snapchat</p></div>
+
+								<div id="axeY"><p>Axe degrés d'approbation à la récupération des données</p></div>
+								<div id="axeX"><p>Axe degrés de vigilance sur internet</p></div>
+
+								<div id="reseausoc1"></div>
+								<div id="reseausoc2">
+									<p>Nombre de réseaux sociaux utilisés par les interrogés</p>
+								</div>
+								<div id="reseausoc3"></div>
+							</div>
+
+							<div id="resultatD3"></div>
+
+
+						<script type="text/javascript" src="js/main2.js"></script>
+					</section>
+
+
+				</div><!-- // st-scroll -->
+				
+			</div><!-- // st-container -->
+			
+        </div>
+	
+	</body>
+</html>
